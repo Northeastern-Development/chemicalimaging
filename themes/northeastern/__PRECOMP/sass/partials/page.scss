@@ -10,9 +10,10 @@ main{
   margin: (nth($header-height,1) + $globalnav-height + nth($gutter,1)) 0 0 0;
   flex: 1 0 auto;
   & > section{
-    width: nth($content-width,3);
+    width: nth($content-width,2);
     // background: green;
     margin: 0 auto nth($gutter,1) auto;
+    clear: both;
     &.fullwidth{
       width: 100%;
       // background: yellow;
