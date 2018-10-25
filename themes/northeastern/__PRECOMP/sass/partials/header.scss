@@ -49,13 +49,11 @@ header{
         }
       }
       & > input[type=text]{
-        // color: rgba($brand_colors-white,0.6);
         border-bottom: solid rgba($brand_colors-white,0.6) 1px;
         padding: 0 10px 0 5px;
         &:focus,
         &:hover,
         &:focus + input{
-          // border: none;
           color: rgba($brand_colors-white,1.0);
         }
       }

@@ -4,8 +4,6 @@
 
 		<section class="fullwidth hero">
 
-			<!-- <div><img src="/wp-content/uploads/headerimage-120x56.jpg" /></div> -->
-
 			<div><img srcset="/wp-content/uploads/headerimage.jpg 4096w,/wp-content/uploads/headerimage-768x360.jpg 1280w,/wp-content/uploads/headerimage-700x328.jpg 960w" src="/wp-content/uploads/headerimage.jpg" /></div>
 
 			<h1>This is the homepage.  This is the homepage.  This is the homepage.  This is the homepage.  This is the homepage.  This is the homepage.</h1>
