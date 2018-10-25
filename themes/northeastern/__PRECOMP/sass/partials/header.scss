@@ -29,8 +29,8 @@ header{
         display: block;
         height: 100%;
         & > svg{
-          height: (nth($header-height,1) - (nth($gutter,1) * 2));
-          margin: nth($gutter,1) 0 nth($gutter,1) 0;
+          height: (nth($header-height,1) - (nth($gutter,2) * 2));
+          margin: nth($gutter,2) 0 nth($gutter,2) 0;
         }
       }
     }
@@ -62,9 +62,7 @@ header{
       & > input[type=submit]{
         margin: 0 0 0 10px;
         color: rgba($brand_colors-white,0.6);
-        // @include font-2r-l;
         @include font-3r-l;
-        // line-height: 50px;
       }
     }
   }
@@ -80,8 +78,8 @@ header{
       div.logo{
         & > a{
           & > svg{
-            height: (nth($header-height,2) - (nth($gutter,1) * 2));
-            margin: nth($gutter,1) 0 nth($gutter,1) 0;
+            height: (nth($header-height,2) - (nth($gutter,3) * 2));
+            margin: nth($gutter,3) 0 nth($gutter,3) 0;
           }
         }
       }
