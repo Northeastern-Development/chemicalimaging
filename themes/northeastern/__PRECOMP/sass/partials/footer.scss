@@ -10,8 +10,17 @@
    width: $wrapper-width;
    padding: nth($gutter,1) nth($gutter,1) nth($gutter,1) nth($gutter,1);
    margin: 0 0 0 0;
-
-
+    clear: both;
+    & > div{
+      float: left;
+      width: auto;
+      &.logo{
+        margin: 0 nth($gutter,1) 0 0;
+        & > svg{
+          height: 40px;
+        }
+      }
+    }
 
 
 

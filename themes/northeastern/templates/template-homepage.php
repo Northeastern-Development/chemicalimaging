@@ -6,13 +6,13 @@
 
 			<div><img srcset="/wp-content/uploads/headerimage.jpg 4096w,/wp-content/uploads/headerimage-768x360.jpg 1280w,/wp-content/uploads/headerimage-700x328.jpg 960w" src="/wp-content/uploads/headerimage.jpg" /></div>
 
-			<h1>This is the homepage.  This is the homepage.  This is the homepage.  This is the homepage.  This is the homepage.  This is the homepage.</h1>
+			<h1>Creating technologies to view chemical processes in the brain and body in real time.</h1>
 
 		</section>
 
 		<section class="intro">
-			<div>Et harum quidem rerum facilis est et expedita distinctio.</div>
-			<div>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</div>
+			<div>OUR UNIQUE ADVANTAGE.  We offer a distinctive, partner-driven approach to research.</div>
+			<div>To truly understand the brain and body, researchers need to do more than capture static, point-in-time images through MRIs and biopsies. They need to observe, in real time, the chemical processes unfolding inside the human body. At Northeastern University’s Institute for the Chemical Imaging of Living Systems, we develop imaging tools that highlight chemical signaling in the body—enabling clinicians to better diagnose and treat disease.</div>
 		</section>
 
 		<section class="fullwidth news">
@@ -23,7 +23,7 @@
 						<div><img src="/wp-content/uploads/newsimage.jpg" /></div>
 						<p class="title">This is the title of the news article.</p>
 						<p class="author">by Author Name</p>
-						<p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+						<p>Chemistry-based imaging—the next frontier in medical science—could lead to a variety of advances, from faster diagnosis of disease, to more effective treatments, to technologies that harness the brain-machine interface.</p>
 						<span>Read More</span>
 					</a>
 				</li>
@@ -32,7 +32,7 @@
 						<div><img src="/wp-content/uploads/newsimage.jpg" /></div>
 						<p class="title">This is the title of the news article.</p>
 						<p class="author">by Author Name</p>
-						<p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+						<p>In partnership with Zeiss, an international leader in imaging systems, we’ve created a preeminent research facility with five state-of-the-art microscopes that researchers at Northeastern and other institutions can reserve for use.</p>
 						<span>Read More</span>
 					</a>
 				</li>
@@ -41,14 +41,14 @@
 						<div><img src="/wp-content/uploads/newsimage.jpg" /></div>
 						<p class="title">This is the title of the news article.</p>
 						<p class="author">by Author Name</p>
-						<p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+						<p>Our researchers collaborate across six core disciplines—probe development, animal models, probe delivery, imaging technologies, embedded systems, and signal processing—to develop breakthrough imaging tools.</p>
 						<span>Read More</span>
 					</a>
 				</li>
 			</ul>
 		</section>
 
-		<section class="fullwidth stats">
+		<!-- <section class="fullwidth stats">
 			<h3>Section Title</h3>
 			<ul>
 				<li>
@@ -64,7 +64,7 @@
 					<p>This is the supporting text below the stat</p>
 				</li>
 			</ul>
-		</section>
+		</section> -->
 
 	</main>
 
