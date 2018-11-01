@@ -14,6 +14,15 @@
     & > div{
       float: left;
       width: auto;
+      & > p{
+        & > a{
+          color: rgba($brand_colors-black,1.0);
+          border-bottom: solid rgba($brand_colors-red,1.0) 1px;
+          &:hover{
+            color: rgba($brand_colors-red,1.0);
+          }
+        }
+      }
       &.logo{
         margin: 0 nth($gutter,1) 0 0;
         & > svg{

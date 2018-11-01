@@ -41,4 +41,29 @@
       return $classes;
   }
 
+
+
+
+
+  // we want to add a custom set of options and settings that users can tweak theme settings within
+  if(is_admin()){
+
+    add_action( 'admin_menu', 'nutheme_admin_menu' );
+    add_action( 'admin_init','register_themesettings');
+
+    function register_themesettings(){ // whitelist options
+      register_setting( 'nutheme-settings', 'theme_settings_logosvg' );
+      register_setting( 'nutheme-settings', 'theme_settings_coloroption' );
+    }
+
+    function nutheme_admin_menu() {
+    	add_menu_page( 'Theme Settings', 'Theme Settings', 'manage_options','nutheme_settings.php', 'nutheme_admin_page', get_template_directory_uri().'/img/n.png', 100  );
+    }
+
+    function nutheme_admin_page(){
+      include(get_template_directory().'/functions/interfaces/theme_settings_interface.php'); // call in the settings interface
+    }
+
+  }
+
 ?>

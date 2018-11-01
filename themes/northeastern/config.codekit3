@@ -389,6 +389,13 @@
 		"oAP": "/functions/globalstyles.php",
 		"oF": 0
 		},
+	"/functions/interfaces/theme_settings_interface.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/functions/interfaces/theme_settings_interface.php",
+		"oF": 0
+		},
 	"/functions/media.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -487,6 +494,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"/img/n.png": {
+		"ft": 32768,
+		"iS": 431,
+		"oA": 0,
+		"oAP": "/img/n.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"/index.php": {
 		"cB": 0,
