@@ -11,10 +11,10 @@
 		</section>
 
 		<section class="intro">
-			<div>
+			<!-- <div>
 				<h3>OUR UNIQUE ADVANTAGE.</h3>
 				<p>We offer a distinctive, partner-driven approach to research.</p>
-			</div>
+			</div> -->
 			<div>
 				To truly understand the brain and body, researchers need to do more than capture static, point-in-time images through MRIs and biopsies. They need to observe, in real time, the chemical processes unfolding inside the human body. At Northeastern University’s Institute for the Chemical Imaging of Living Systems, we develop imaging tools that highlight chemical signaling in the body—enabling clinicians to better diagnose and treat disease.
 			</div>
