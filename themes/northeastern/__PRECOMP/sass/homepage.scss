@@ -55,46 +55,11 @@ body.homepage{
       overflow: hidden;
       width: 100%;
       & > div{
-        // @include font-5l-l;
         min-height: 200px;
-        // &:nth-of-type(1){  // this is the block overlapping the hero
-        //   background: rgba($brand_colors-black,1.0);
-        //   width: 30%;
-        //   min-height: 300px;
-        //   position: absolute;
-        //   margin: ((nth($gutter,1) * 2) * -1) 0 0 0;
-        //   padding: nth($gutter,1) 0 nth($gutter,1) 0;
-        //   color: rgba($brand_colors-white,1.0);
-        //   & > h3{
-        //     @include font-5b-l;
-        //     display: inline-block;
-        //     // margin: 0 0 nth($gutter,1) 0;
-        //   }
-        //   & > p{
-        //     // @include font-5l-l;
-        //     line-height: 5.0rem;
-        //     padding: nth($gutter,1) nth($gutter,2) 0 100px;
-        //   }
-        //   &:before{
-        //     display: inline-block;
-        //     background: rgba($brand_colors-red,1.0);
-        //     width: 70px;
-        //     height: 20px;
-        //     margin: 7px nth($gutter,1) 0 0;
-        //     content: '';
-        //     float: left;
-        //   }
-        // }
-        // &:nth-of-type(2){  // this is static block to the right
-          width: 75%;
-          margin: nth($gutter,1) auto 0 auto;
-          // background: red;
-          // float: right;
-          // padding: nth($gutter,1) nth($gutter,1) nth($gutter,1) (nth($gutter,1) * 7);
-          // border: solid rgba($brand_colors-grayW,1.0) 8px;
-          @include font-6l-l;
-          line-height: 6.0rem;
-        // }
+        width: 75%;
+        margin: nth($gutter,1) auto 0 auto;
+        @include font-6l-l;
+        line-height: 6.0rem;
       }
     }
 
@@ -111,40 +76,24 @@ body.homepage{
           margin: nth($gutter,1) nth($gutter,1) nth($gutter,1) 0;
           flex-grow: 1;
           @include font-2r-l;
-          // & > a{
-          //   display: block;
-          //   &:hover{
-          //
-          //     & > div{
-          //       & > img{
-          //         transform: scale(1.1);
-          //         transition: all .5s;
-          //       }
-          //     }
-          //
-          //     & > span{
-          //       color: rgba($brand_colors-red,1.0);
-          //     }
-          //   }
-            & > div{
-              width: 100%;
-              height: 250px;
-              overflow: hidden;
-              position: relative;
-              margin: 0 0 20px 0;
-              & > img{
-                position: absolute;
-                top: -9999px;
-                right: -9999px;
-                bottom: -9999px;
-                left: -9999px;
-                margin: auto;
-                min-width: 100%;
-                min-height: 100%;
-                transform: scale(1.0);
-                transition: all .5s;
-              }
-            // }
+          & > div{
+            width: 100%;
+            height: 250px;
+            overflow: hidden;
+            position: relative;
+            margin: 0 0 20px 0;
+            & > img{
+              position: absolute;
+              top: -9999px;
+              right: -9999px;
+              bottom: -9999px;
+              left: -9999px;
+              margin: auto;
+              min-width: 100%;
+              min-height: 100%;
+              transform: scale(1.0);
+              transition: all .5s;
+            }
             & > p{
               color: rgba($brand_colors-black,1.0);
               margin: 0 0 20px 0;
@@ -201,91 +150,16 @@ body.homepage{
 
 
 
-    @media only screen and (max-width: 1500px){
-      & > section.intro{
-        // margin: 0 auto nth($gutter,1) auto;
-        // overflow: hidden;
-        & > div{
-          // @include font-5l-l;
-          // min-height: 200px;
-          &:nth-of-type(1){  // this is the block overlapping the hero
-            // background: rgba($brand_colors-black,1.0);
-            // width: 30%;
-            // min-height: 300px;
-            // position: absolute;
-            // margin: ((nth($gutter,1) * 2) * -1) 0 0 0;
-            // padding: nth($gutter,1) 0 nth($gutter,1) 0;
-            // color: rgba($brand_colors-white,1.0);
-            & > h3{
-              @include font-3b-l;
-              display: inline-block;
-              // margin: 0 0 nth($gutter,1) 0;
-            }
-            // & > p{
-            //   // @include font-5l-l;
-            //   line-height: 5.0rem;
-            //   padding: nth($gutter,1) 0 0 100px;
-            // }
-            &:before{
-              // display: inline-block;
-              // background: rgba($brand_colors-red,1.0);
-              // width: 70px;
-              // height: 20px;
-              margin: 7px nth($gutter,2) 0 0;
-              // content: '';
-              // float: left;
-            }
-          }
-          // &:nth-of-type(2){  // this is static block to the right
-          //   width: 75%;
-          //   float: right;
-          //   padding: nth($gutter,1) nth($gutter,1) nth($gutter,1) (nth($gutter,1) * 7);
-          //   border: solid rgba($brand_colors-grayW,1.0) 8px;
-          //   @include font-6l-l;
-          // }
-        }
-      }
-    }
-
-
-
-
-
     @media only screen and (max-width: 1280px){
 
       & > section{
         & > h3{
           @include font-3l-c;
-          // padding: nth($gutter,1) 0 nth($gutter,1) 0;
         }
       }
 
       & > section.hero{
-        // position: relative;
-        // & > div{
-        //   width: 100%;
-        //   height: 100%;
-        //   overflow: hidden;
-        //   position: absolute;
-        //   z-index: -1;
-        //   margin: 0 0 20px 0;
-        //   & > img{
-        //     position: absolute;
-        //     top: -9999px;
-        //     right: -9999px;
-        //     bottom: -9999px;
-        //     left: -9999px;
-        //     margin: auto;
-        //     min-width: 100%;
-        //     min-height: 100%;
-        //   }
-        // }
         & > h1{
-          // width: 60%;
-          // margin: 0 auto 0 auto;
-          // padding: (nth($gutter,1) * 3) 0 (nth($gutter,1) * 3) 0;
-          // text-align: center;
-          // color: rgba($brand_colors-white,1.0);
           @include font-6l-c;
         }
       }
@@ -294,232 +168,18 @@ body.homepage{
         margin: 0 auto (nth($gutter,1) * 2) auto;
         overflow: hidden;
         & > div{
-          // @include font-5l-l;
           min-height: 200px;
-          // &:nth-of-type(1){  // this is the block overlapping the hero
-          //   background: rgba($brand_colors-black,1.0);
-          //   width: 30%;
-          //   min-height: 300px;
-          //   position: absolute;
-          //   margin: ((nth($gutter,1) * 2) * -1) 0 0 0;
-          //   padding: nth($gutter,1) 0 nth($gutter,1) 0;
-          //   color: rgba($brand_colors-white,1.0);
-          //   & > h3{
-          //     @include font-5b-l;
-          //     display: inline-block;
-          //     // margin: 0 0 nth($gutter,1) 0;
-          //   }
-          //   & > p{
-          //     // @include font-5l-l;
-          //     line-height: 5.0rem;
-          //     padding: nth($gutter,1) nth($gutter,2) 0 100px;
-          //   }
-          //   &:before{
-          //     display: inline-block;
-          //     background: rgba($brand_colors-red,1.0);
-          //     width: 70px;
-          //     height: 20px;
-          //     margin: 7px nth($gutter,1) 0 0;
-          //     content: '';
-          //     float: left;
-          //   }
-          // }
-          // &:nth-of-type(2){  // this is static block to the right
-            // width: 75%;
-            // margin: nth($gutter,1) auto 0 auto;
-            // background: red;
-            // float: right;
-            // padding: nth($gutter,1) nth($gutter,1) nth($gutter,1) (nth($gutter,1) * 7);
-            // border: solid rgba($brand_colors-grayW,1.0) 8px;
-            @include font-5l-l;
-            // line-height: 6.0rem;
-          // }
+          @include font-5l-l;
         }
       }
 
       & > section.stats{
-        // background: rgba($brand_colors-black,1.0);
-        // margin: 0 auto 0 auto;
-        // & > h3{
-        //   color: rgba($brand_colors-white,1.0);
-        // }
         & > ul{
-          // width: nth($content-width,2);
-          // display: flex;
-          // flex-direction: row;
-          // flex-direction: column;
-          // margin: 0 auto 0 auto;
-          // background: red;
-          // list-style: none;
-          // list-style-type: none;
           & > li{
-          //   margin: 0 nth($gutter,1) nth($gutter,1) 0;
-          // margin: 0 0 (nth($gutter,1) * 2) 0;
-          //   flex-grow: 1;
-            // @include font-8l-c;
           @include font-6l-c;
-          //   color: rgba($brand_colors-white,1.0);
-          //   & > p{
-          //     @include font-2l-c;
-            // width: 100%;
-            // &:last-child{
-            //   margin: 0 0 (nth($gutter,1) * 2) 0;
-            // }
           }
-          // &:last-child{
-          //   margin: 0 0 (nth($gutter,1) * 2) 0;
-          // }
         }
       }
-
-    }
-
-
-
-
-
-    @media only screen and (max-width: 1135px){
-      & > section.intro{
-        // margin: 0 auto nth($gutter,1) auto;
-        // overflow: hidden;
-        & > div{
-          // @include font-5l-l;
-          // min-height: 200px;
-          &:nth-of-type(1){  // this is the block overlapping the hero
-            // background: rgba($brand_colors-black,1.0);
-            // width: 30%;
-            // min-height: 300px;
-            // position: absolute;
-            // margin: ((nth($gutter,1) * 2) * -1) 0 0 0;
-            // padding: nth($gutter,1) 0 nth($gutter,1) 0;
-            // color: rgba($brand_colors-white,1.0);
-            // & > h3{
-            //   @include font-3b-l;
-            //   display: inline-block;
-            //   // margin: 0 0 nth($gutter,1) 0;
-            // }
-            & > p{
-              // @include font-5l-l;
-              // line-height: 5.0rem;
-              padding: nth($gutter,1) 0 0 40px;
-            }
-            &:before{
-              // display: inline-block;
-              // background: rgba($brand_colors-red,1.0);
-              width: 20px;
-              // height: 20px;
-              // margin: 7px nth($gutter,2) 0 0;
-              // content: '';
-              // float: left;
-            }
-          }
-          // &:nth-of-type(2){  // this is static block to the right
-          //   // width: 75%;
-          //   // float: right;
-          //   padding: nth($gutter,1) nth($gutter,1) nth($gutter,1) (nth($gutter,1) * 5);
-          //   // border: solid rgba($brand_colors-grayW,1.0) 8px;
-          //   // @include font-6l-l;
-          // }
-        }
-      }
-    }
-
-
-
-
-
-    @media only screen and (max-width: 1080px){
-
-    //   & > section.intro{
-    //     // margin: 0 auto nth($gutter,1) auto;
-    //     // overflow: hidden;
-    //     & > div{
-    //       // @include font-5l-l;
-    //       // min-height: 200px;
-    //       &:nth-of-type(1){  // this is the block overlapping the hero
-    //         // background: rgba($brand_colors-black,1.0);
-    //         // width: 30%;
-    //         // min-height: 300px;
-    //         // position: absolute;
-    //         // margin: ((nth($gutter,1) * 2) * -1) 0 0 0;
-    //         // padding: nth($gutter,1) 0 nth($gutter,1) 0;
-    //         // color: rgba($brand_colors-white,1.0);
-    //         // & > h3{
-    //         //   @include font-3b-l;
-    //         //   display: inline-block;
-    //         //   // margin: 0 0 nth($gutter,1) 0;
-    //         // }
-    //         & > p{
-    //           // @include font-5l-l;
-    //           // line-height: 5.0rem;
-    //           padding: nth($gutter,1) 0 0 40px;
-    //         }
-    //         &:before{
-    //           // display: inline-block;
-    //           // background: rgba($brand_colors-red,1.0);
-    //           width: 20px;
-    //           // height: 20px;
-    //           // margin: 7px nth($gutter,2) 0 0;
-    //           // content: '';
-    //           // float: left;
-    //         }
-    //       }
-    //       // &:nth-of-type(2){  // this is static block to the right
-    //       //   // width: 75%;
-    //       //   // float: right;
-    //       //   padding: nth($gutter,1) nth($gutter,1) nth($gutter,1) (nth($gutter,1) * 5);
-    //       //   // border: solid rgba($brand_colors-grayW,1.0) 8px;
-    //       //   // @include font-6l-l;
-    //       // }
-    //     }
-    //   }
-    // }
-
-      // & > section.intro{
-      //   // margin: 0 auto nth($gutter,1) auto;
-      //   // overflow: hidden;
-      //   & > div{
-      //     // @include font-6l-l;
-      //     &:nth-of-type(1){  // this is the block overlapping the hero
-      //       // background: rgba($brand_colors-black,1.0);
-      //       // width: 30%;
-      //       // min-height: 350px;
-      //       // position: absolute;
-      //       position: relative;
-      //       // margin: ((nth($gutter,1) * 2) * -1) 0 0 0;
-      //       // padding: nth($gutter,1) nth($gutter,1) nth($gutter,1) (nth($gutter,1) * 4);
-      //       padding: nth($gutter,2) nth($gutter,3) nth($gutter,2) 0;
-      //       // color: rgba($brand_colors-white,1.0);
-      //       margin: 0 0 nth($gutter,1) 0;
-      //       width: 100%;
-      //       min-height: 100px;
-      //       & > p{
-      //         // @include font-5l-l;
-      //         // line-height: 5.0rem;
-      //         padding: nth($gutter,1) 0 0 30px;
-      //       }
-      //       &:before{
-      //         // display: inline-block;
-      //         // background: rgba($brand_colors-red,1.0);
-      //         width: 10px;
-      //         // height: 20px;
-      //         margin: 7px nth($gutter,3) 0 0;
-      //         // content: '';
-      //         // float: left;
-      //       }
-      //     }
-      //     &:nth-of-type(2){  // this is static block to the right
-      //       // width: 75%;
-      //       // min-height: 400px;
-      //       // float: right;
-      //       float: none;
-      //       width: 100%;
-      //       // padding: nth($gutter,1) nth($gutter,1) nth($gutter,1) (nth($gutter,1) * 7);
-      //       padding: nth($gutter,1) nth($gutter,1) nth($gutter,1) nth($gutter,1);
-      //       // border: solid rgba($brand_colors-grayW,1.0) 8px;
-      //     }
-      //   }
-      // }
 
     }
 
@@ -530,31 +190,9 @@ body.homepage{
     @media only screen and (max-width: 960px){
 
       & > section.hero{
-        // position: relative;
-        // & > div{
-        //   width: 100%;
-        //   height: 100%;
-        //   overflow: hidden;
-        //   position: absolute;
-        //   z-index: -1;
-        //   margin: 0 0 20px 0;
-        //   & > img{
-        //     position: absolute;
-        //     top: -9999px;
-        //     right: -9999px;
-        //     bottom: -9999px;
-        //     left: -9999px;
-        //     margin: auto;
-        //     min-width: 100%;
-        //     min-height: 100%;
-        //   }
-        // }
         & > h1{
           width: 80%;
-          // margin: 0 auto 0 auto;
           padding: (nth($gutter,1) * 2) 0 (nth($gutter,1) * 2) 0;
-          // text-align: center;
-          // color: rgba($brand_colors-white,1.0);
           @include font-5l-c;
         }
       }
@@ -563,98 +201,18 @@ body.homepage{
         margin: 0 auto (nth($gutter,1) * 2) auto;
         overflow: hidden;
         & > div{
-          // @include font-5l-l;
           min-height: 200px;
-          // &:nth-of-type(1){  // this is the block overlapping the hero
-          //   background: rgba($brand_colors-black,1.0);
-          //   width: 30%;
-          //   min-height: 300px;
-          //   position: absolute;
-          //   margin: ((nth($gutter,1) * 2) * -1) 0 0 0;
-          //   padding: nth($gutter,1) 0 nth($gutter,1) 0;
-          //   color: rgba($brand_colors-white,1.0);
-          //   & > h3{
-          //     @include font-5b-l;
-          //     display: inline-block;
-          //     // margin: 0 0 nth($gutter,1) 0;
-          //   }
-          //   & > p{
-          //     // @include font-5l-l;
-          //     line-height: 5.0rem;
-          //     padding: nth($gutter,1) nth($gutter,2) 0 100px;
-          //   }
-          //   &:before{
-          //     display: inline-block;
-          //     background: rgba($brand_colors-red,1.0);
-          //     width: 70px;
-          //     height: 20px;
-          //     margin: 7px nth($gutter,1) 0 0;
-          //     content: '';
-          //     float: left;
-          //   }
-          // }
-          // &:nth-of-type(2){  // this is static block to the right
-            // width: 75%;
-            // margin: nth($gutter,1) auto 0 auto;
-            // background: red;
-            // float: right;
-            // padding: nth($gutter,1) nth($gutter,1) nth($gutter,1) (nth($gutter,1) * 7);
-            // border: solid rgba($brand_colors-grayW,1.0) 8px;
-            @include font-3l-l;
-            // line-height: 6.0rem;
-          // }
+          @include font-3l-l;
         }
       }
 
       & > section.news{
-        // background: rgba($brand_colors-beige,1.0);
         & > ul{
-          // width: nth($content-width,1);
           width: nth($content-width,2);
-          // display: flex;
-          // display: block;
-          // flex-direction: row;
           flex-direction: column;
-          // margin: 0 auto 0 auto;
-          // margin: 0 auto nth($gutter,1) auto;
-          // list-style: none;
-          // list-style-type: none;
           & > li{
-            // margin: 0 nth($gutter,1) nth($gutter,1) 0;
             margin: nth($gutter,1) 0 (nth($gutter,1) * 2) 0;
-            // flex-grow: 1;
-            // @include font-2r-l;
-            // display: block;
             width: 100%;
-            // & > div{
-            //   width: 100%;
-            //   height: 250px;
-            //   overflow: hidden;
-            //   position: relative;
-            //   margin: 0 0 20px 0;
-            //   & > img{
-            //     position: absolute;
-            //     top: -9999px;
-            //     right: -9999px;
-            //     bottom: -9999px;
-            //     left: -9999px;
-            //     margin: auto;
-            //     min-width: 100%;
-            //     min-height: 100%;
-            //   }
-            // }
-            // & > p{
-            //   color: rgba($brand_colors-black,1.0);
-            //   margin: 0 0 20px 0;
-            //   &.title{
-            //     @include font-2b-l;
-            //     margin: 0 0 0 0;
-            //   }
-            //   &.author{
-            //     @include font-1l-l;
-            //     color: rgba($brand_colors-black,1.0);
-            //   }
-            // }
             &:last-child{
               margin: nth($gutter,1) 0 (nth($gutter,1) * 2) 0;
             }
@@ -663,37 +221,18 @@ body.homepage{
       }
 
       & > section.stats{
-        // background: rgba($brand_colors-black,1.0);
-        // margin: 0 auto 0 auto;
-        // & > h3{
-        //   color: rgba($brand_colors-white,1.0);
-        // }
         & > ul{
           width: nth($content-width,2);
-          // display: flex;
-          // flex-direction: row;
           flex-direction: column;
           margin: 0 auto 0 auto;
-          // background: red;
-          // list-style: none;
-          // list-style-type: none;
           & > li{
-          //   margin: 0 nth($gutter,1) nth($gutter,1) 0;
-          margin: 0 0 (nth($gutter,1) * 2) 0;
-          //   flex-grow: 1;
-            // @include font-8l-c;
-          @include font-5l-c;
-          //   color: rgba($brand_colors-white,1.0);
-          //   & > p{
-          //     @include font-2l-c;
+            margin: 0 0 (nth($gutter,1) * 2) 0;
+            @include font-5l-c;
             width: 100%;
             &:last-child{
               margin: 0 0 (nth($gutter,1) * 2) 0;
             }
           }
-          // &:last-child{
-          //   margin: 0 0 (nth($gutter,1) * 2) 0;
-          // }
         }
       }
 
@@ -705,58 +244,11 @@ body.homepage{
 
     @media only screen and (max-width: 600px){
       margin: (nth($header-height,2) + $globalnav-height) 0 0 0;
-      // & > section{
-      //   width: auto;
-      //   margin: 0 nth($gutter,3) nth($gutter,2) nth($gutter,3);
-      //   &.fullwidth{
-      //     margin: 0 0 nth($gutter,2) 0;
-      //   }
-      // }
 
       & > section.intro{
-        // margin: 0 auto (nth($gutter,1) * 2) auto;
-        // overflow: hidden;
         & > div{
-          // @include font-5l-l;
-          // min-height: 200px;
-          // &:nth-of-type(1){  // this is the block overlapping the hero
-          //   background: rgba($brand_colors-black,1.0);
-          //   width: 30%;
-          //   min-height: 300px;
-          //   position: absolute;
-          //   margin: ((nth($gutter,1) * 2) * -1) 0 0 0;
-          //   padding: nth($gutter,1) 0 nth($gutter,1) 0;
-          //   color: rgba($brand_colors-white,1.0);
-          //   & > h3{
-          //     @include font-5b-l;
-          //     display: inline-block;
-          //     // margin: 0 0 nth($gutter,1) 0;
-          //   }
-          //   & > p{
-          //     // @include font-5l-l;
-          //     line-height: 5.0rem;
-          //     padding: nth($gutter,1) nth($gutter,2) 0 100px;
-          //   }
-          //   &:before{
-          //     display: inline-block;
-          //     background: rgba($brand_colors-red,1.0);
-          //     width: 70px;
-          //     height: 20px;
-          //     margin: 7px nth($gutter,1) 0 0;
-          //     content: '';
-          //     float: left;
-          //   }
-          // }
-          // &:nth-of-type(2){  // this is static block to the right
-            width: nth($content-width,2);
-            margin: nth($gutter,1) auto 0 auto;
-            // background: red;
-            // float: right;
-            // padding: nth($gutter,1) nth($gutter,1) nth($gutter,1) (nth($gutter,1) * 7);
-            // border: solid rgba($brand_colors-grayW,1.0) 8px;
-            // @include font-6l-l;
-            // line-height: 6.0rem;
-          // }
+          width: nth($content-width,2);
+          margin: nth($gutter,1) auto 0 auto;
         }
       }
 

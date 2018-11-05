@@ -54,6 +54,7 @@ class NUModuleLoader{
       }
     }else{
       $this->errorOn = true;
+      // die('ERROR: the remote content could not be returned.');
       parent::__construct();  // call the constructor again until we get everything set up and working as it should be
     }
   }
@@ -205,7 +206,7 @@ class NUModuleLoader{
       }else{  // we are in debug mode
         $return = wp_remote_get('http://newnu.local/'.$a);
       }
-      if(!is_wp_error($return['body'])){
+      if(!is_wp_error($return)){
         return $return['body'];
       }else{
         return 'ERROR: the remote content could not be returned.';
