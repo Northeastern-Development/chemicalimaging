@@ -1,6 +1,6 @@
 // this is the main javascript file to be included in all pages of the site
 
-var debug = false;
+var debug = true;
 
 (function(root,$,undefined){
 

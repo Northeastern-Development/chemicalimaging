@@ -11,7 +11,7 @@ header{
   background: rgba($brand_colors-black,1.0);
   flex: none;
   z-index: 1000;
-  border-bottom: solid rgba($brand_colors-grayW,1) 1px;
+  // border-bottom: solid rgba($brand_colors-grayW,1) 1px;
   margin-top: $globalnav-height;  // this accounts for the global header, need to move this to the css for the global header
   height: nth($header-height,1);
   & > div{

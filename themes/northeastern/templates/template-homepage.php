@@ -4,7 +4,7 @@
 
 		<section class="fullwidth hero">
 
-			<div><img srcset="/wp-content/uploads/headerimage.jpg 4096w,/wp-content/uploads/headerimage-768x360.jpg 1280w,/wp-content/uploads/headerimage-700x328.jpg 960w" src="/wp-content/uploads/headerimage.jpg" /></div>
+			<div><img srcset="<?=site_url()?>/wp-content/uploads/hero.jpg 4096w,<?=site_url()?>/wp-content/uploads/headerimage-768x303.jpg 1280w,<?=site_url()?>/wp-content/uploads/headerimage-700x276.jpg 960w" src="<?=site_url()?>/wp-content/uploads/headerimage.jpg" /></div>
 
 			<h1>Creating technologies to view chemical processes in the brain and body in real time.</h1>
 
@@ -25,7 +25,7 @@
 			<ul>
 				<li>
 					<!-- <a href="https://www.northeastern.edu" title="Click to read more" target="_blank"> -->
-						<div><img src="/wp-content/uploads/newsimage.jpg" /></div>
+						<div><img src="<?=site_url()?>/wp-content/uploads/brain.jpg" /></div>
 						<!-- <p class="title">This is the title of the news article.</p>
 						<p class="author">by Author Name</p> -->
 						<p>Chemistry-based imaging—the next frontier in medical science—could lead to a variety of advances, from faster diagnosis of disease, to more effective treatments, to technologies that harness the brain-machine interface.</p>
@@ -34,7 +34,7 @@
 				</li>
 				<li>
 					<!-- <a href="https://www.northeastern.edu" title="Click to read more" target="_blank"> -->
-						<div><img src="/wp-content/uploads/newsimage.jpg" /></div>
+						<div><img src="<?=site_url()?>/wp-content/uploads/laby.jpg" /></div>
 						<!-- <p class="title">This is the title of the news article.</p>
 						<p class="author">by Author Name</p> -->
 						<p>In partnership with Zeiss, an international leader in imaging systems, we’ve created a preeminent research facility with five state-of-the-art microscopes that researchers at Northeastern and other institutions can reserve for use.</p>
@@ -43,7 +43,7 @@
 				</li>
 				<li>
 					<!-- <a href="https://www.northeastern.edu" title="Click to read more" target="_blank"> -->
-						<div><img src="/wp-content/uploads/newsimage.jpg" /></div>
+						<div><img src="<?=site_url()?>/wp-content/uploads/mach.jpg" /></div>
 						<!-- <p class="title">This is the title of the news article.</p>
 						<p class="author">by Author Name</p> -->
 						<p>Our researchers collaborate across six core disciplines—probe development, animal models, probe delivery, imaging technologies, embedded systems, and signal processing—to develop breakthrough imaging tools.</p>

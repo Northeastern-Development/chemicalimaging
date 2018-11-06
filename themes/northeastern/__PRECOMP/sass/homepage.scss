@@ -47,6 +47,7 @@ body.homepage{
         text-align: center;
         color: rgba($brand_colors-white,1.0);
         @include font-8l-c;
+        text-shadow: 2px 2px 2px rgba($brand_colors-black,1.0);
       }
     }
 
@@ -65,6 +66,7 @@ body.homepage{
 
     & > section.news{
       background: rgba($brand_colors-beige,1.0);
+      margin: 0 auto 0 auto;
       & > ul{
         width: nth($content-width,1);
         display: flex;
@@ -78,7 +80,7 @@ body.homepage{
           @include font-2r-l;
           & > div{
             width: 100%;
-            height: 250px;
+            height: 350px;
             overflow: hidden;
             position: relative;
             margin: 0 0 20px 0;
@@ -91,8 +93,6 @@ body.homepage{
               margin: auto;
               min-width: 100%;
               min-height: 100%;
-              transform: scale(1.0);
-              transition: all .5s;
             }
             & > p{
               color: rgba($brand_colors-black,1.0);
@@ -173,13 +173,25 @@ body.homepage{
         }
       }
 
-      & > section.stats{
+      & > section.news{
+        background: rgba($brand_colors-beige,1.0);
+        margin: 0 auto 0 auto;
         & > ul{
           & > li{
-          @include font-6l-c;
+            & > div{
+              height: 250px;
+            }
           }
         }
       }
+
+      // & > section.stats{
+      //   & > ul{
+      //     & > li{
+      //     @include font-6l-c;
+      //     }
+      //   }
+      // }
 
     }
 
@@ -213,6 +225,9 @@ body.homepage{
           & > li{
             margin: nth($gutter,1) 0 (nth($gutter,1) * 2) 0;
             width: 100%;
+            & > div{
+              height: 450px;
+            }
             &:last-child{
               margin: nth($gutter,1) 0 (nth($gutter,1) * 2) 0;
             }
@@ -220,21 +235,21 @@ body.homepage{
         }
       }
 
-      & > section.stats{
-        & > ul{
-          width: nth($content-width,2);
-          flex-direction: column;
-          margin: 0 auto 0 auto;
-          & > li{
-            margin: 0 0 (nth($gutter,1) * 2) 0;
-            @include font-5l-c;
-            width: 100%;
-            &:last-child{
-              margin: 0 0 (nth($gutter,1) * 2) 0;
-            }
-          }
-        }
-      }
+      // & > section.stats{
+      //   & > ul{
+      //     width: nth($content-width,2);
+      //     flex-direction: column;
+      //     margin: 0 auto 0 auto;
+      //     & > li{
+      //       margin: 0 0 (nth($gutter,1) * 2) 0;
+      //       @include font-5l-c;
+      //       width: 100%;
+      //       &:last-child{
+      //         margin: 0 0 (nth($gutter,1) * 2) 0;
+      //       }
+      //     }
+      //   }
+      // }
 
     }
 
@@ -249,6 +264,16 @@ body.homepage{
         & > div{
           width: nth($content-width,2);
           margin: nth($gutter,1) auto 0 auto;
+        }
+      }
+
+      & > section.news{
+        & > ul{
+          & > li{
+            & > div{
+              height: 250px;
+            }
+          }
         }
       }
 
