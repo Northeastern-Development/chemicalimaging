@@ -4,7 +4,7 @@
 
 		<section class="fullwidth hero">
 
-			<div><img srcset="<?=site_url()?>/wp-content/uploads/hero.jpg 4096w,<?=site_url()?>/wp-content/uploads/headerimage-768x303.jpg 1280w,<?=site_url()?>/wp-content/uploads/headerimage-700x276.jpg 960w" src="<?=site_url()?>/wp-content/uploads/headerimage.jpg" /></div>
+			<div><img srcset="<?=site_url()?>/wp-content/uploads/hero.jpg 4096w,<?=site_url()?>/wp-content/uploads/hero-768x303.jpg 1280w,<?=site_url()?>/wp-content/uploads/hero-700x276.jpg 960w" src="<?=site_url()?>/wp-content/uploads/hero.jpg" /></div>
 
 			<h1>Creating technologies to view chemical processes in the brain and body in real time.</h1>
 
