@@ -16,7 +16,7 @@
 				<p>We offer a distinctive, partner-driven approach to research.</p>
 			</div> -->
 			<div>
-				At Northeastern's <b>Institute for the Chemical Imaging of Living Systems</b>, we develop imaging tools to highlight those chemical processes—enabling clinicians to better diagnose and treat disease.
+				At Northeastern's <b>Institute for Chemical Imaging of Living Systems</b>, we develop imaging tools to highlight chemical processes—enabling clinicians to better diagnose and treat disease.
 			</div>
 		</section>
 
@@ -28,16 +28,16 @@
 						<div><img src="<?=site_url()?>/wp-content/uploads/brain.jpg" /></div>
 						<p class="title" style="font-weight: bold;">Chemical-based Imaging</p>
 						<!-- <p class="author">by Author Name</p> -->
-						<p>Chemistry-based imaging—the next frontier in medical science—could lead to a variety of advances, from faster diagnosis of disease, to more effective treatments, to technologies that harness the brain-machine interface.</p>
+						<p>Chemistry-based imaging—the next frontier in medical science—will lead to advances such as better understanding of disease, faster pathways to treatment, and technologies that harness the brain-machine interface.</p>
 						<!-- <span>Read More</span> -->
 					<!-- </a> -->
 				</li>
 				<li>
 					<!-- <a href="https://www.northeastern.edu" title="Click to read more" target="_blank"> -->
 						<div><img src="<?=site_url()?>/wp-content/uploads/laby.jpg" /></div>
-						<p class="title" style="font-weight: bold;">Preeminent Research Facility</p>
+						<p class="title" style="font-weight: bold;">Pre-eminent Research Facility</p>
 						<!-- <p class="author">by Author Name</p> -->
-						<p>In partnership with Zeiss, an international leader in imaging systems, we’ve created a preeminent research facility with five state-of-the-art microscopes that researchers at Northeastern and other institutions can reserve for use.</p>
+						<p>In partnership with Zeiss, an international leader in imaging systems, we’ve created a pre-eminent research facility with five state-of-the-art microscopes that researchers at Northeastern and other institutions can reserve for use.</p>
 						<!-- <span>Read More</span> -->
 					<!-- </a> -->
 				</li>
