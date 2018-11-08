@@ -56,7 +56,7 @@ body.homepage{
       overflow: hidden;
       width: 100%;
       & > div{
-        min-height: 200px;
+        // min-height: 200px;
         width: 75%;
         margin: nth($gutter,1) auto 0 auto;
         @include font-6l-l;
@@ -117,34 +117,34 @@ body.homepage{
       }
     }
 
-    & > section.stats{
-      background: rgba($brand_colors-black,1.0);
-      margin: 0 auto 0 auto;
-      & > h3{
-        color: rgba($brand_colors-white,1.0);
-      }
-      & > ul{
-        width: nth($content-width,1);
-        display: flex;
-        flex-direction: row;
-        margin: 0 auto 0 auto;
-        list-style: none;
-        list-style-type: none;
-        & > li{
-          margin: 0 nth($gutter,1) nth($gutter,1) 0;
-          flex-grow: 1;
-          @include font-8l-c;
-          color: rgba($brand_colors-white,1.0);
-          & > p{
-            @include font-2l-c;
-          }
-          &:last-child{
-            margin: 0 0 nth($gutter,1) 0;
-          }
-        }
-      }
-
-    }
+    // & > section.stats{
+    //   background: rgba($brand_colors-black,1.0);
+    //   margin: 0 auto 0 auto;
+    //   & > h3{
+    //     color: rgba($brand_colors-white,1.0);
+    //   }
+    //   & > ul{
+    //     width: nth($content-width,1);
+    //     display: flex;
+    //     flex-direction: row;
+    //     margin: 0 auto 0 auto;
+    //     list-style: none;
+    //     list-style-type: none;
+    //     & > li{
+    //       margin: 0 nth($gutter,1) nth($gutter,1) 0;
+    //       flex-grow: 1;
+    //       @include font-8l-c;
+    //       color: rgba($brand_colors-white,1.0);
+    //       & > p{
+    //         @include font-2l-c;
+    //       }
+    //       &:last-child{
+    //         margin: 0 0 nth($gutter,1) 0;
+    //       }
+    //     }
+    //   }
+    //
+    // }
 
 
 
@@ -168,7 +168,7 @@ body.homepage{
         margin: 0 auto (nth($gutter,1) * 2) auto;
         overflow: hidden;
         & > div{
-          min-height: 200px;
+          // min-height: 200px;
           @include font-5l-l;
         }
       }
@@ -213,7 +213,7 @@ body.homepage{
         margin: 0 auto (nth($gutter,1) * 2) auto;
         overflow: hidden;
         & > div{
-          min-height: 200px;
+          // min-height: 200px;
           @include font-3l-l;
         }
       }

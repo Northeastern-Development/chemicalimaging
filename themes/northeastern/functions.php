@@ -7,12 +7,12 @@
 require_once(get_template_directory()."/functions/admin.php");
 require_once(get_template_directory()."/functions/customposts.php");
 require_once(get_template_directory()."/functions/theme.php");
+require_once(get_template_directory()."/functions/menus.php");
 require_once(get_template_directory()."/functions/media.php");
 require_once(get_template_directory()."/functions/globalscripts.php");
 require_once(get_template_directory()."/functions/conditionalscripts.php");
 require_once(get_template_directory()."/functions/globalstyles.php");
 require_once(get_template_directory()."/functions/conditionalstyles.php");
-require_once(get_template_directory()."/functions/menus.php");
 require_once(get_template_directory()."/functions/sidebar.php");
 require_once(get_template_directory()."/functions/excerpts.php");
 require_once(get_template_directory()."/functions/comments.php");
@@ -71,6 +71,7 @@ function shapeSpace_check_enum($redirect, $request){
 
 // Add Actions
 add_action('wp_enqueue_scripts', 'nudev_include_custom_jquery');
+add_action('init', 'register_northeastern_menu'); // Add neudev Menu
 add_action('init', 'northeastern_header_scripts'); // Add Custom Scripts to wp_head
 add_action('wp_print_scripts', 'northeastern_conditional_scripts'); // Add Conditional Page Scripts
 add_action('get_header', 'enable_threaded_comments'); // Enable Threaded Comments
@@ -80,6 +81,7 @@ add_action('init', 'register_northeastern_menu'); // Add northeastern Blank Menu
 add_action('widgets_init', 'my_remove_recent_comments_style'); // Remove inline Recent Comment Styles from wp_head()
 add_action('init', 'northeasternwp_pagination'); // Add our northeastern Pagination
 add_action('admin_footer','posts_status_color');  // colorize post types
+
 
 // Remove Actions
 remove_action('wp_head', 'feed_links_extra', 3); // Display the links to the extra feeds such as category feeds

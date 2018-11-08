@@ -85,6 +85,10 @@
 					</div>
 					<!-- /logo -->
 
+					<nav class="nu__main-nav" id="nu__main-nav-desktop">
+						<?php northeastern_nav(); ?>
+					</nav>
+
 				</div>
 
 			</header>

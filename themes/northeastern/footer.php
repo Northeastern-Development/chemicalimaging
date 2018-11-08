@@ -2,14 +2,14 @@
 			<footer class="footer" role="contentinfo">
 
 				<!-- small logo -->
-				<div class="logo"><?=get_settings('theme_settings_logosvg')?></div>
+				<!-- <div class="logo"><?=get_settings('theme_settings_logosvg')?></div> -->
 				<!-- /small logo -->
 
 				<div>
 					<!-- copyright -->
-					<p class="copyright">
+					<!-- <p class="copyright">
 						&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <a href="mailto:cils@northeastern.edu" title="Send us an email">Contact Us</a>
-					</p>
+					</p> -->
 					<!-- /copyright -->
 				</div>
 
