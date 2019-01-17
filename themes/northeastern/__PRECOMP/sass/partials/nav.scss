@@ -7,7 +7,8 @@
 nav.nu__main-nav{
   position: absolute;
   right: 0;
-  top: (nth($header-height,1) - (nth($gutter,1) * 2));
+  // top: (nth($header-height,2) - (nth($gutter,1) * 2));
+  top: 0;
   // & > div.mobilenav{
   //   display: none;
   //   float: right;
@@ -25,7 +26,11 @@ nav.nu__main-nav{
       }
       & > a{
         color: rgba($brand_colors-white,0.6);
-        @include font-3r-l;
+        // @include font-3r-l;
+        font-size: 1.4rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        line-height: nth($header-height,2);
         &:hover,
         &:focus{
           color: rgba($brand_colors-white,1.0);
@@ -51,7 +56,11 @@ nav.nu__main-nav{
         // margin: 0 0 0 0;
         // padding: 0 nth($gutter,1) 0 nth($gutter,1);
         & > a{
-          @include font-2r-l;
+          // @include font-2r-l;
+          font-size: 1.0rem;
+          font-weight: 400;
+          text-transform: uppercase;
+          line-height: nth($header-height,2);
         }
       }
     }

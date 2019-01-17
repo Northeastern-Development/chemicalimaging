@@ -4,7 +4,8 @@
  */
 
  footer{
-   background: rgba($brand_colors-grayW,1.0);
+   display: none;
+   background: rgba($brand_colors-black,1.0);
    min-height: 50px;
    flex: none;
    width: $wrapper-width;
